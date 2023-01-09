@@ -27,26 +27,6 @@ function myfunction(value) {
 }
 
 console.log(list1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //For loop for looping through an array
 let arr1 = ['Hello','World', '20', 'Learning']
 let flen = arr1.length
