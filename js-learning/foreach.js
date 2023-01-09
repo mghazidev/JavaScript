@@ -12,7 +12,7 @@ let arr = [{
     }]
 let len = arr.length
 console.log(len)
-
+//The forEach() method calls a function once for each array element.
 //Using ForEach instead of for loop
 
 let arr2 = ['Hello','World', '20', 'Learning']
