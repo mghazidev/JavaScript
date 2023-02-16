@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Events</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!---Focus when we click on the form field it will change the boarder background color etc-->
+    <section id="contact">
+        <h2>Keep In Touch</h2>
+        <div class="contact-form">
+            <div class="form-col">
+                <h3>Send me a message</h3>
+                <form action="#" method="post">
+                    <!-- <label for="name">Name:</label> -->
+                    <input type="text" id="name" name="name" placeholder="Name" onfocus="focusFunction(this)" onblur="blurFunction(this)" required>
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="email" id="email" name="email" placeholder="Email" onfocus="focusFunction(this)" onblur="blurFunction(this)" required>
+                    <!-- <label for="subject">Subject:</label> -->
+                    <input type="text" id="subject" name="subject" placeholder="Subject" onfocus="focusFunction(this)" onblur="blurFunction(this)" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" onfocus="focusFunction(this)" onblur="blurFunction(this)" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<!---addeventlistenermethod-->
+    <script>
+        // function focusFunction(value){
+        //     value.style.backgroundColor = '#222'; 
+        // }
+        // function blurFunction(value){
+        //     value.style.backgroundColor = ''; 
+        // }
+            document.getElementById("name").addEventListener("focus",abc) = abc;
+
+            function abc(){
+                document.getElementById("name").style.backgroundColor='red';
+            }
+
+    </script>
+</body>
+
+</html>
