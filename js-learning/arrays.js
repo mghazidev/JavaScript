@@ -92,7 +92,7 @@ let arr5 = [10, 10, 3, 4, 5, 6, 60, 250]
 var a5 = arr5.map(function(value) {
   return value * value
 })
-//console.log(a5)
+
 
 
 //Factorial of an array
