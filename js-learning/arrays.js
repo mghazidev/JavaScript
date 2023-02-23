@@ -2,7 +2,7 @@ console.clear();
 
 //Arrays//
 //indexing//
-const fruits = ["Apples", "Oranges","Bananas","Mango"]
+const fruits = ["Apples", "Kiwi","Bananas","Mango"]
 let fruit = fruits[2]
 //console.log(fruit);
 
