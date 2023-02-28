@@ -63,3 +63,21 @@ console.clear()
 // else {
 //     console.log(a +'not palindrom')
 // }
+//6 - Write a program that checks if a given string contains only letters and no numbers.
+
+
+// let a = 'Gahzi';
+// if (/^[A-Za-z]*$/.test(a)) {
+//     console.log('True')
+// } else {
+//     console.log('false');
+// }
+
+
+//7 - Write a program that checks if a given array is sorted in ascending order.
+
+let x = [1,2,3,4,5,6,7,8]
+ 
+
+
+
